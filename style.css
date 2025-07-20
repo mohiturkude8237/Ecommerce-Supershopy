@@ -216,7 +216,76 @@ header
     
 }
 
+/* -------------------------------------Categories style---------------------------------------- */
+.categories-heading
+{
+    text-align:center;
+    margin-top:35px;
+    margin-bottom:35px;
+    font-size:30px;
+    font-weight:800;
+    color: #a6022d;
+}
+.categories-container
+{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    padding:40px;
+    background:url('https://static.vecteezy.com/system/resources/thumbnails/030/669/915/small_2x/maroon-texture-high-quality-free-photo.jpg');
+    box-shadow:3px 3px 5px gray;
+}
+.categories
+{
+    text-align:center;
+    padding:40px;
+    border-radius:10px;
+    transition:0.3s all ease-in-out;
+    border:1px solid white;
+    color:white;
 
+    
+}
+.categories:hover
+{
+    transform:scale(1.06);
+    box-shadow:2px 2px 5px gray;
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+.categories  p
+{
+    font-size:25px;
+    font-weight:700;
+    padding:5px;
+    margin-bottom:10px;
+    
+}
+.categories  p:hover
+{
+    opacity:none;
+}
+.categories button
+{
+    margin-top:10px;
+    padding:8px 25px;
+    border-radius:10px;
+    border:1px solid white;
+    background-color:transparent;
+    color:white;
+    font-weight:bold;  
+    
+}
+@media (max-width:768px)
+{
+    .categories-container
+    {
+        display:grid;
+        grid-template-columns:1fr;
+    }
+
+}
 /* -----------------------------------------product style------------------------------------------ */
 .product-container
 {
@@ -406,6 +475,8 @@ header
         grid-template-columns:1fr;
     }
 }
+
+
 
 /* ------------------footer style-------------------- */
 footer
