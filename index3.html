@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!----------------- header----------------------->
+    <header>
+      <div class="header-container">
+        <div class="logo-wrapper">
+          <p>
+            <span><i class="fa-solid fa-cart-shopping"></i> </span>Supershopy
+          </p>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-menu" id="mobileMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="auth-section">
+          <div class="login">
+            <p class="auth-section">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-bag-shopping"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -----------------Hero section ---------------->
+    <div class="hero-container">
+      <div class="hero-left">
+        <img src="HeroImage.png" alt="" />
+      </div>
+      <div class="hero-right">
+        <h1 class="hero-heading">
+          Find Clothes<br />
+          That Matches <br />
+          Your Style
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint
+          minus molestias aliquam dolorem quisquam quam vitae suscipit magnam
+          est! Beatae, soluta? Ullam temporibus quas doloribus, perspiciatis
+          magni officiis incidunt. Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Vitae, voluptatem. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Aut deserunt similique, laboriosam
+          possimus fuga blanditiis illum quo eum aspernatur illo.
+        </p>
+        <div class="shop-now">
+          <button>Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------- Products section----------- -->
+    <div class="product-container">
+      <div class="product1 product">
+        <img
+          src="https://5.imimg.com/data5/SELLER/Default/2021/2/PF/ZA/YW/28470268/patch-denim-jeans-28-to-36.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+      <div class="product1 product">
+        <img
+          src="https://i.cubmcpaws.com/fit-in/dropbox_7052211115061150.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+      <div class="product1 product">
+        <img
+          src="https://tiimg.tistatic.com/fp/1/007/550/grey-color-washed-pattern-premium-stretchable-denim-jeans-for-regular-wear-644.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+      <div class="product1 product">
+        <img
+          src="https://5.imimg.com/data5/LF/NP/JA/SELLER-12731235/men-denim-jeans-500x500.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+      <div class="product1 product">
+        <img
+          src="https://5.imimg.com/data5/SELLER/Default/2024/2/389813068/MY/HG/NG/16991533/regular-fit-faded-blue-men-denim-jeans-500x500.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+      <div class="product1 product">
+        <img
+          src="https://5.imimg.com/data5/SELLER/Default/2024/2/389813068/MY/HG/NG/16991533/regular-fit-faded-blue-men-denim-jeans-500x500.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+      <div class="product1 product">
+        <img
+          src="https://assets.ajio.com/medias/sys_master/root/20230130/OTXr/63d7e29aaeb269c651027982/-473Wx593H-441651525-darkblue-MODEL2.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+      <div class="product1 product">
+        <img
+          src="https://assets.ajio.com/medias/sys_master/root/20221107/nsCC/63692009f997ddfdbd5c906b/-473Wx593H-469240348-blue-MODEL.jpg"
+          alt="Mobile 1"
+        />
+        <span id="heart"></span>
+        <i class="fa-regular fa-heart heart-icon"></i>
+        <span id="sale">Sale</span>
+        <div class="product-info">
+          <p class="product-name">Best Blue Jeans Ever by Denim</p>
+          <p class="price">
+            <span class="price-text">From</span
+            ><span class="new-price">$101.43</span
+            ><del class="old-price">$123.06</del>
+          </p>
+          <p class="box-price">Open Box Price:$68.63 - $144.35</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>(2023)</span>
+          </div>
+          <p class="delivery-text">Free 1-Day Delivery</p>
+          <p class="delivery-date">Get it Tomorrow</p>
+        </div>
+      </div>
+    </div>
+    <!----------------- Footer----------------------->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-heading">
+          <p id="footer-heading">SuperShopy</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus id
+            quibusdam molestiae cupiditate laborum fugit deleniti, perspiciatis
+            facilis at aut!
+          </p>    
+        </div>
+        <div class="footer-links">
+          <p>Quik Links</p>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Sitemaps</a></li>
+        </div>
+        <div class="footer-shop">
+          <p>Shop Trends</p>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Trending Products</a></li>
+          <li><a href="#">New Arrival Products</a></li>
+          <li><a href="#">Fetured Products</a></li>
+          <li><a href="#">Sitemaps</a></li>
+        </div>
+        <div class="footer-contact">
+          <p class="footer-contact-heading">Reach at Us</p>
+          <p><span><i class="fa-solid fa-location-dot"></i></span><span>MSEB Colony, Rajiv Gandhi Square, Bhandara-441904, Maharashtra, India</span></p>
+          <p><span><i class="fa-solid fa-phone"></i></span><span>+91-123467890</span></p>
+          <p><span><i class="fa-solid fa-envelope"></i></i></span><span>Email:mohit@gmail.com</span></p> 
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy 2025-SuperShopy-All Rights Reserved</p>
+        <p>Designed & Developed by Mohit Urkude</p>
+        <div class="footer-social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-youtube"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
