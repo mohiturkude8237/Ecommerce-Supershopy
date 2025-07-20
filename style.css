@@ -222,9 +222,12 @@ header
     text-align:center;
     margin-top:35px;
     margin-bottom:35px;
-    font-size:30px;
+    font-size:40px;
     font-weight:800;
     color: #a6022d;
+    font-family: "Lobster Two", sans-serif;
+
+
 }
 .categories-container
 {
@@ -234,6 +237,8 @@ header
     padding:40px;
     background:url('https://static.vecteezy.com/system/resources/thumbnails/030/669/915/small_2x/maroon-texture-high-quality-free-photo.jpg');
     box-shadow:3px 3px 5px gray;
+    font-family: "Lobster Two", sans-serif;
+
 }
 .categories
 {
