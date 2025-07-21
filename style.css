@@ -494,12 +494,112 @@ header
     }
 }
 
+/* ------------------------------------Newsletter style------------------ */
+.promo-subscribe
+{
+    background:url('https://media.istockphoto.com/id/1057557176/photo/red-christmas-background.jpg?s=612x612&w=0&k=20&c=Lcl-Ncpp0vxR-2bNA864-WhsJTtIppki8qCY4QsfyNw=');
+    /* background-color:yellow; */
+    text-align:center;
+    padding:50px 40px;
+    font-weight:800;
+    color:#fff;
+    margin:20px 0;
+    opacity:;
+
+}
+.promo-subscribe h2
+{
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size:35px;
+
+
+}
+.promo-subscribe p
+{
+    margin-top:20px;
+    font-size:18px;
+        font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+
+}
+.newsletter-form
+{
+    
+    width:350px;
+    position: relative;
+    margin:20px auto;
+    border-radius:10px;
+
+}
+
+.newsletter-form input
+{
+    padding:12px 15px;
+    font-size:17px;
+    border:none;
+    outline:none; 
+    width:100%;
+    border-radius:5px;
+
+}
+.newsletter-form button
+{
+    padding:10px 25px;
+    font-weight:bold;
+    border-radius:5px;
+    border:none;
+    cursor: pointer;
+    background-color:black;
+    color:white;
+    position:absolute;
+    top:4px;
+    right:4px;
+    font-size:15px;
+    background-color:#530419;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+.newsletter-form input::placeholder
+{
+
+    font-size:15px;
+    font-weight:700;
+    color:gray;
+
+}
+
+@media (max-width:768px)
+{
+    .newsletter-form
+    {
+        width:100%;
+    }
+    .promo-subscribe h2
+    {
+        font-size:24px;
+    }
+    .promo-subscribe p
+    {
+        font-size:14px;
+    }
+}
+@media (max-width:480px)
+{
+    .newsletter-form
+    {
+        width:100%;
+    }
+}
 
 
 /* ------------------footer style-------------------- */
 footer
 {
-    background-color:#a6022d;
+    /* background-color:#a6022d; */
+    background:url('https://static.vecteezy.com/system/resources/thumbnails/002/202/062/small/bardy-abstract-textured-grunge-web-background-vector.jpg');
     color:white;
 }
 .footer-container
